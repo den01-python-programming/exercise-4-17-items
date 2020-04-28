@@ -1,6 +1,7 @@
 import pytest
-import src.exercise
+from src.item import Item
 
 def test_exercise():
-    #implement tests here
-    assert 0 == 0
+    item = Item("My name")
+
+    assert item.get_name() == "My name"
