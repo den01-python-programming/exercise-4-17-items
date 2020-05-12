@@ -1,6 +1,6 @@
 # Exercise 4.17 Items
 
-Implement the class `Items` described here.
+Implement the class `Item` described here.
 
 Write a program that reads names of items from the user. If the name is empty, the program stops reading. Otherwise, the given name is used to create a new item, which you will then add to the `items` list.
 
